@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+RewriteBase /carine.chaulacel/
+
+RewriteRule ^[^./]+$          %{REQUEST_URI}/             [R=301,L]
+
+RewriteRule ^$                /pages/portfolio.php     [L,QSA]
+RewriteRule ^cv/$             /pages/portfolio.php               [L,QSA]
+RewriteRule ^motivation/$     /pages/motivation.php       [L,QSA]

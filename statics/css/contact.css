@@ -1,0 +1,79 @@
+.contact {
+	background-color: var(--background-header);
+	color: var(--color-texte-clair);
+	line-height: 2;
+	padding: 1rem 5rem;
+}
+.contact::after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+.contact a {
+	color: var(--color-texte-clair);
+}
+.contact ul {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 33%;
+}
+.linkedin {
+	overflow: hidden;
+	width: 100%;
+}
+.contact li {
+	padding-right: 0.5rem;
+}
+.contact svg {
+	margin-right: 1rem;
+}
+.contact .photo {
+	display: none;
+}
+.print {
+	cursor: pointer;
+}
+.contact ul:nth-of-type(2) .linkedin {
+	display: inline;
+}
+.contact ul:nth-of-type(3) .linkedin {
+	display: none;
+}
+@media screen and (max-width: 980px) {
+	.contact {
+		padding: 1rem;
+		margin-bottom: 1rem;
+	}
+	.contact ul {
+		float: none;
+		width: 65%;
+	}
+	.contact .photo {
+		border-width: 0;
+		display: inline-block;
+		float: right;
+		height: auto;
+		width: 30%;
+	}
+}
+@media print {
+	.contact {
+		padding: 0.7rem 5rem;
+	}
+	.contact li, .contact a {
+		text-decoration: none;
+	}
+	.contact ul:nth-of-type(2) .linkedin {
+		display: none;
+	}
+	.contact ul:nth-of-type(3) .linkedin {
+		display: inline;
+	}
+	.print {
+		display: none;
+	}
+}

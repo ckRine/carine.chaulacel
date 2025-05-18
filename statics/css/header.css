@@ -1,0 +1,57 @@
+header {
+	display: flex;
+	align-items: center;
+	height: 20rem;
+}
+.photo {
+	border: 3rem solid var(--background-page);
+	max-height: 100%;
+	width: auto;
+}
+.identite {
+	max-width: 65%;
+}
+.identite .name {
+	font-size: 2rem;
+	color: var(--color-texte);
+}
+.identite .name .uppercase {
+	color: var(--nom);
+}
+.identite .metier {
+	color: var(--metier);
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin: 0 0 1rem 0;
+}
+.apropos {
+}
+
+@media screen and (max-width: 980px) {
+	header {
+		display: block;
+		height: auto;
+	}
+	.photo {
+		display: none;
+	}
+	.identite {
+		max-width: 100%;
+		padding: 1rem;
+	}
+}
+
+@media print {
+	header {
+		height: 10rem;
+	}
+	.photo {
+		border-width: 1.5rem;
+	}
+	.metier {
+		margin-bottom: 0;
+	}
+	.apropos {
+		margin-bottom: 1rem;
+	}
+}

@@ -1,0 +1,31 @@
+.main {
+	float: var(--align-main);
+	height: 100%;
+	margin-bottom: 2rem;
+	padding: 0 1rem;
+	width: 63%;
+}
+.main::after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+@media screen and (max-width: 980px) {
+	.main {
+		float: none;
+		margin: 0;
+		padding: 0 2rem;
+		width: 100%;
+	}
+}
+@media print {
+	.main {
+		margin-bottom: 0;
+		padding: 0 2rem;
+	}
+	.main article ul {
+		margin-bottom: 0.7rem;
+	}
+}

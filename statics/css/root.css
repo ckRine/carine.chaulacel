@@ -1,0 +1,40 @@
+:root {
+	--bleu-canard: #2980B9;
+	--vert-sauge: #27AE60;
+	--corail-doux: #F39C12;
+	--lavande: #9B59B6;
+	--gris-tres-clair: #F9F9F9;
+	--bleu-nuit: #111c27;
+	--bleu: #3d4750;
+	--menthe: #1ABC9C;
+	--menthe-fonce: #28816f;
+	--blanc: #ffffff;
+	--rose-doux: #E91E63;
+	--color-one: #617586;
+	--color-two: #3d4750;
+	--color-three: #617586;
+	--color-four: #497351;
+	--color-six: #fff;
+	--background-color-two: #fff;
+	--font-color-one: var(--color-two);
+	
+	--background-body: #f8f7ef;
+	--background-page: #ffffff;
+	--color-texte: var(--bleu-nuit);
+	--color-texte-clair: var(--blanc);
+	--background-header:var(--bleu-canard);
+	--titre-section: var(--bleu-canard);
+	--barre: var(--menthe-fonce);
+	--puces: var(--menthe-fonce);
+	--pictos:var(--Menthe);
+	--nom: var(--menthe-fonce);
+	--metier: var(--bleu);
+	--competences: var(--menthe-fonce);
+	--ieu: var(--bleu-nuit);
+	--poste: var(--bleu-nuit);
+	--etablissement: var(--menthe-fonce);
+	--date: var(--bleu-nuit);
+	--box-shadow: 0 0.5rem 0.5rem 0 #c3c3c3;
+	--align-main : left;
+	--align-side: right;
+}

@@ -1,0 +1,25 @@
+.side {
+	float: var(--align-side);
+	height: 100%;
+	margin-bottom: 2rem;
+	padding: 0 1rem;
+	width: 37%;
+}
+.side::after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+ }
+@media screen and (max-width: 980px) {
+	.side {
+		padding: 0 2rem;
+		width: 100%;
+	}
+}
+@media print {
+	.side section {
+		margin-bottom: 2rem;
+	}
+}

@@ -1,0 +1,19 @@
+
+.competences {
+	
+}
+.skill {
+	background: var(--competences);
+	border-radius: 0.8rem;
+	color: var(--color-texte-clair);
+	margin: 0.3rem;
+	padding: 0 1rem;
+	text-align: center;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+}
+.skill:hover {
+	transform: translateY(-3px);
+	box-shadow: var(--box-shadow);
+}

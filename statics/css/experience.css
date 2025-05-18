@@ -1,0 +1,20 @@
+article {
+	margin-bottom: 2rem;
+	position: relative;
+}
+article a {
+	color: var(--color-texte);
+}
+@media screen and (max-width: 980px) {
+	article {
+		text-align: justify;
+	}
+}
+@media print {
+	article {
+		margin-bottom: 0.8rem;
+	}
+	article.item-puce {
+		padding-top: 0;
+	}
+}
