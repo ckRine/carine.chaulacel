@@ -6,10 +6,17 @@
 			<p class="etablissement">YellowKorner</p>
 			<span class="date">De Décembre 2019 à Décembre 2024</span>
 			<span class="lieu">Paris</span>
-			<ul>
+			<ul class="taches">
 				<li class="job">Développement et maintenance des fonctionnalités pour les sites <a href="https://www.YellowKorner.com" target="_blank"></a>, <a href="https://www.zeinberg.com" target="_blank">Zeinberg</a> et CRM interne avec HTML5, CSS3, SCSS, JavaScript, React, PHP, MySQL, Twig, Git.</li>
 				<li class="job">Optimisation des performances web et du SEO.</li>
 				<li class="job">Gestion de tickets via Monday et collaboration CI/CD.</li>
+				<li class="job web">Mise en pages de mails et newsletter</li>
+				<li class="job web">Création de landing pages pour des événements</li>
+			</ul>
+			<ul class="environnement web">
+				<li class="job">Travail en équipe IT composées de 6 développeurs, un chef de projet, un support utilisateurs et un CTO</li>
+				<li class="job">Collaboration avec les équipes Digital (composées des responsables produits et d'un réferent SEO) et Marketing pour la réalisations de leurs besoins </li>
+				<li class="job">Necessité de créer des sites responsives accessibles par qrcode sur un télephone mais aussi utilisable sur des téléviseurs en galerie</li>
 			</ul>
 		</article>
 		<article class="item-puce">
@@ -22,6 +29,14 @@
 				<li class="job">Implémentation, conception responsive et intégrations d'API REST</li>
 				<li class="job">Contribution au  Back End</li>
 				<li class="job">Scrum Master pour deux équipes, promouvant méthodologies agiles au sein de toute l'entreprise (Scrum, Kanban) via JIRA.</li>
+				<li class="job web">Habillage complet temporaire du site Caradisiac en fonctions des grands événements (Salons de l'automobile)</li>
+				<li class="job web">Mise en place de phases d'AB testing</li>
+				<li class="job web">Création de mini sites pour des partenaires publicitaires</li>
+			</ul>
+			<ul class="environnement web">
+				<li class="job">Travail en équipes dédiées à un produit, composées de développeur back et front, d'un designer, d'un po et d'un devops</li>
+				<li class="job">Organisation scrum avec des plannings poker pour évaluer les tickets </li>
+				<li class="job">Collaboration avec les web designer pour implémanter les maquettes</li>
 			</ul>
 		</article>
 		<article class="item-puce">

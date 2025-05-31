@@ -12,7 +12,7 @@
 	</ul>
 	<ul>
 		<li class="naissance"><i class="fa-regular fa-calendar-days"></i>Née le 17/08/1975</li>
-		<li class="print" onclick="window.print()"><i class="fa-solid fa-print"></i>Imprimer le cv</li>
+		<li class="print" onclick="generatePDF()"><i class="fa-solid fa-print"></i>Imprimer une version courte (une page)</li>
 		<li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/carine-chaulacel-97403712/"><i class="fa-brands fa-linkedin"></i>carine-chaulacel-97403712</a></li>
 	</ul>
 </div>

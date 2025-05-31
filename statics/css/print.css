@@ -1,0 +1,73 @@
+html.pdf {
+  font-size: 62.5%;
+}
+html.pdf * {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+html.pdf a {
+  text-decoration: none;
+}
+html.pdf body {
+  background-color: #fff;
+}
+html.pdf .page {
+  box-shadow: none;
+  margin: 0;
+  min-height: auto;
+  padding: 0;
+  width: 21cm;
+}
+html.pdf section {
+  margin-top: 0.9rem;
+}
+html.pdf .poste {
+  margin-bottom: 0.5rem;
+}
+html.pdf .web {
+  display: none;
+}
+
+html.pdf .contact {
+  padding: 0.7rem 5rem;
+}
+html.pdf .contact li, html.pdf .contact a {
+  text-decoration: none;
+}
+html.pdf .contact ul:nth-of-type(2) .linkedin {
+  display: none;
+}
+html.pdf .contact ul:nth-of-type(3) .linkedin {
+  display: inline;
+}
+html.pdf .print {
+  display: none;
+}
+html.pdf article {
+  margin-bottom: 0.8rem;
+}
+html.pdf article.item-puce {
+  padding-top: 0;
+}
+html.pdf header {
+  height: 10rem;
+}
+html.pdf .photo {
+  border-width: 1.5rem;
+}
+html.pdf .metier {
+  margin-bottom: 0;
+}
+html.pdf .apropos {
+  margin-bottom: 1rem;
+}
+html.pdf .main {
+  margin-bottom: 0;
+  padding: 0 2rem;
+}
+html.pdf .main article ul {
+  margin-bottom: 0.7rem;
+}
+html.pdf .side section {
+  margin-bottom: 2rem;
+}

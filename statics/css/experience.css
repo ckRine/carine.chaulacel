@@ -10,11 +10,3 @@ article a {
 		text-align: justify;
 	}
 }
-@media print {
-	article {
-		margin-bottom: 0.8rem;
-	}
-	article.item-puce {
-		padding-top: 0;
-	}
-}

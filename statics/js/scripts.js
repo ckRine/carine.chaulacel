@@ -5,3 +5,11 @@ if (window.innerWidth < 980) {
     });
   });
 }
+function generatePDF() {
+  const element = document.getElementsByTagName('html');
+  console.log(element);
+ 
+  element[0].classList.add('pdf');
+  print();
+  element[0].classList.remove('pdf');
+}

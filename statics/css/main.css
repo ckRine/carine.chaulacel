@@ -20,12 +20,3 @@
 		width: 100%;
 	}
 }
-@media print {
-	.main {
-		margin-bottom: 0;
-		padding: 0 2rem;
-	}
-	.main article ul {
-		margin-bottom: 0.7rem;
-	}
-}

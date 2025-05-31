@@ -54,26 +54,9 @@
 	}
 	.contact .photo {
 		border-width: 0;
-		display: inline-block;
+		display: block;
 		float: right;
 		height: auto;
 		width: 30%;
-	}
-}
-@media print {
-	.contact {
-		padding: 0.7rem 5rem;
-	}
-	.contact li, .contact a {
-		text-decoration: none;
-	}
-	.contact ul:nth-of-type(2) .linkedin {
-		display: none;
-	}
-	.contact ul:nth-of-type(3) .linkedin {
-		display: inline;
-	}
-	.print {
-		display: none;
 	}
 }

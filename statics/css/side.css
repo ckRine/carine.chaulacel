@@ -18,8 +18,3 @@
 		width: 100%;
 	}
 }
-@media print {
-	.side section {
-		margin-bottom: 2rem;
-	}
-}

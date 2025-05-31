@@ -40,18 +40,3 @@ header {
 		padding: 1rem;
 	}
 }
-
-@media print {
-	header {
-		height: 10rem;
-	}
-	.photo {
-		border-width: 1.5rem;
-	}
-	.metier {
-		margin-bottom: 0;
-	}
-	.apropos {
-		margin-bottom: 1rem;
-	}
-}
