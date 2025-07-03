@@ -4,7 +4,7 @@
     <article class="item-puce">
       <p class="poste">Développeuse Front-End</p>
       <p class="etablissement">YellowKorner</p>
-      <span class="date">De Décembre 2019 à Décembre 2024</span>
+      <span class="date">De Décembre 2019 à Novembre 2023</span>
       <span class="lieu">Paris</span>
       <ul class="taches">
         <li class="job">Développement et maintenance des fonctionnalités pour les sites <a href="https://www.YellowKorner.com" target="_blank"></a>, <a href="https://www.zeinberg.com" target="_blank">Zeinberg</a> et CRM interne avec HTML5, CSS3, SCSS, JavaScript, React, PHP, MySQL, Twig, Git.</li>

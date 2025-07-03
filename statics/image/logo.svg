@@ -1,0 +1,38 @@
+<!-- filepath: c:\Users\ck_ri\Developpement\chaulacel\carine.chaulacel\statics\image\logo.svg -->
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" fill="#fff"/>
+  <!-- Lettre C géométrique, carrée, bords arrondis -->
+  <path
+    d="M 196 64
+       Q 196 44 176 44
+       L 80 44
+       Q 60 44 60 64
+       L 60 192
+       Q 60 212 80 212
+       L 176 212
+       Q 196 212 196 192"
+    stroke="#2980B9"
+    stroke-width="24"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Pixels décomposés en bas à droite -->
+  <rect x="186" y="200" width="14" height="14" rx="3" fill="url(#grad1)"/>
+  <rect x="204" y="214" width="10" height="10" rx="2" fill="url(#grad2)"/>
+  <rect x="218" y="228" width="7" height="7" rx="1.5" fill="url(#grad3)"/>
+  <defs>
+    <linearGradient id="grad1" x1="186" y1="200" x2="200" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2980B9"/>
+      <stop offset="1" stop-color="#27AE60"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="204" y1="214" x2="214" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2980B9"/>
+      <stop offset="1" stop-color="#27AE60"/>
+    </linearGradient>
+    <linearGradient id="grad3" x1="218" y1="228" x2="225" y2="235" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2980B9"/>
+      <stop offset="1" stop-color="#27AE60"/>
+    </linearGradient>
+  </defs>
+</svg>
